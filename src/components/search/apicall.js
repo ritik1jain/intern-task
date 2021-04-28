@@ -1,6 +1,5 @@
 import axios from 'axios';
 import key from '../../key';
-import {Redirect} from 'react-router-dom';
 
 export default async function Apicall(data,setData) {
     const api_key = key.api_key;
