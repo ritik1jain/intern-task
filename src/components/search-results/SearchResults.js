@@ -15,7 +15,7 @@ console.log(item_list);
             <h1>Search Results</h1>
             <div className="col-12">
                 <div className="search-results">
-                 {item_list ? item_list : <h1>Enter valid movie names</h1>}
+                 {item_list.length > 0 ? item_list : <h1>Enter valid movie names</h1>}
                 </div>
             </div>
 

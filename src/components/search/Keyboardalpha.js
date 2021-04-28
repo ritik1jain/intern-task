@@ -62,7 +62,7 @@ const [flag, setFlag] = useState(false);
 
             <div className="key-board-row">
                 <span className="space-clear"><button onClick={(e) => props.onChange({...props.state, keyword: props.state.keyword + ' '})}>SPACE</button></span>
-                <span className="space-clear"><button onClick={(e) => props.onChange({...props.state, keyword: ''})}>CLEAR</button></span>
+                <span className="space-clear"><button onClick={(e) => props.onChange({...props.state, keyword: '', info:[]})}>CLEAR</button></span>
                 <span className="search-btn"><button onClick={call}
                                                             >SEARCH</button></span>
                         </div>
