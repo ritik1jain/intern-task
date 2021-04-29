@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {Redirect} from 'react-router-dom';
-import Apicall from './apicall';
+import Apicall from './apicall'
 
 const Searchbox = (props) => {
     const [flag, setFlag] = useState(false);
